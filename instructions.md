@@ -8,12 +8,12 @@ As a team, build the web site for the pants type your team has been given. The t
 
 Pick a theme that the team likes. A good place for inspiration is the [Wordpress themes](https://wordpress.org/themes/) site. Do not purchase, or copy the theme code, just browse them for inspiration. Everyone should agree on a theme and ensure that each page is consistent with the colors, fonts, and/or images chosen.
 
-* Your team can only have 1 CSS file - main.css
+* Your team can only have 1 CSS and 1 JS file
 * Vanilla HTML, CSS, and JS only
 * Your team should be using bootstrap - at minimum use the grid system
 
 ### Pages
-Each team member is going to be responsible for the content of a different page, so decide on the name and content for each of those pages. Some possible options are...
+Each team member is going to be responsible for the content of a different page, so decide on the name and content for each of those pages. Some possible options are:
 
 1. Home page
 1. About the pants
@@ -23,7 +23,10 @@ Each team member is going to be responsible for the content of a different page,
 
 ### Teamwork
 
-Create a Project board for your site and make the columns for 'Backlog', 'Todo', 'In Progress', 'Code Review' (optional), 'done'. Create notes for different units of work, make the notes into issues, and assign it to the team members doing to work. When you are assigned to an issue, make sure that you are moving it over to the right column on the board.
+Create a Project board for your site and make the columns for 'Backlog', 'Todo', 'Doing', 'Code Review', 'Done'. Create notes for different units of work, make the notes into issues, and assign it to the team members doing to work. When you are assigned to an issue, make sure that you are moving it over to the right column on the board.
+
+### Planning
+Your team **MUST** use github projects to track tickets and progress on tickets.  We expect to see detailed wireframes for all different views in your project. These wireframes should be included in the appropriate ticket.
 
 ### Git
 Your team is going to learn how to use git to enable good teamwork when building a software product.
@@ -62,9 +65,6 @@ Now you have all of your work, plus all of your teammate's approved work on one 
 * EVERY SINGE PAGE must include a JS loop of some kind
 * Your team can only have 1 JS file - main.js
 * All your JS should be written in functions.  Wherever possible reuseable functions.
-
-### Planning
-Your team MUST use github projects to track tickets and progress on tickets.  We expect to see detailed wireframes for all different views in your project. These wireframes should be included in the appropriate ticket.
 
 **:warning:** DO NOT start coding until Luke has looked at your github project.
 
