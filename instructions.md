@@ -66,7 +66,7 @@ Now you have all of your work, plus all of your teammate's approved work on one 
 * Your team can only have 1 JS file - main.js
 * All your JS should be written in functions.  Wherever possible reuseable functions.
 
-**:warning:** DO NOT start coding until Luke has looked at your github project.
+**:warning:** DO NOT start coding until an instructor has looked at your github project.
 
 ### Twists
 Your project must include each of the following:
