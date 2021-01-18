@@ -13,15 +13,17 @@ Use the Github website as a foundation for layout and styles that you will need 
 * Your team should be using bootstrap
 
 ### Pages
-Each team member is going to be responsible for the content of a different page, so decide on the name and content for each of those pages. Some possible options are:
+Each team member is going to be responsible for the content of a different page, so decide on the name and content for each of those pages. We know that Githib uses tabs, but we want you to create separate pages with the same styles applied to them for consistency.
 
-1. Overview page
+Some possible options are:
+
+- Overview page
   - Includes a form that allows a user to add a pinned repository
-1. Repositories page
+- Repositories page
   - Includes a form that allows a user to create a new repository
-1. Projects Page with at least 5 projects listed on the page
+- Projects Page with at least 5 projects listed on the page
   - Includes a form that allows a user to add a new project
-1. Packages Page
+- Packages Page
   - Includes a form that allows a user to add a package to the list of packages
 
 ### Data
@@ -41,12 +43,12 @@ Your team is going to learn how to use git to enable good teamwork when building
 1. Follow the instructons in class to clone down the repo
 1. `cd` into the directory that got created.
 1. Before anyone on the team writes a single line of code, the team will decide on a branch naming strategy. Branches should be descriptive of the work that is going to be done on that branch. Some teams also decide to add the developer's information to the branch name, such as initials. For example, a developer named Jasmine Sheboygen is going to work on the navbar for the web site. A good name for the branch would be `js-navbar`.
-1. Your team already has a README.md file so there is no reason anyone should push to the master branch - LIKE EVER.  Also at some point there should probably exist a good, proper readme with screenshots
+1. Your team already has a README.md file so there is no reason anyone should push to the main branch - LIKE EVER.  Also at some point there should probably exist a good, proper readme with screenshots
 
 Now everyone will work on their page on those individual branches. Once a teammates feels that their work is complete, the teammate will push up their branch to Github and create a pull request. Decide as group your standard for reviewing and approving pull requests, for example, you may decide that each PR needs one thumbs up from another teammate, you may decide that everyone in the group needs to give it a thumbs up, etc. At the very least, one of the other teammates must review the pull request and give a thumbs up (Just type :+1 in the comment box).
 ```bash
 # Check to make sure that your working tree is clean. Add and commit all that you need to.
-git checkout master
+git checkout main
 git fetch
 git branch -al
 # ^ The code above shows you all active branches that are available to you on GitHub.
@@ -54,14 +56,14 @@ git checkout your-teammates-branch-name
 # Test test test
 ```
 
-Once the PR gets a thumbs up, the teammates should merge the current version of master (the one with all their teammate's fancy additions) to their current working branch by following this process:
+Once the PR gets a thumbs up, the teammates should merge the current version of main (the one with all their teammate's fancy additions) to their current working branch by following this process:
 
 ```bash
 # Check to make sure that your working tree is clean. Add and commit all that you need to.
-git checkout master
-git pull origin master
+git checkout main
+git pull origin main
 git checkout your-branch-name
-git merge master
+git merge main
 # Fix any merge conflicts, if you have them
 # git add and git commit any files affected by the merge conflict.
 ```
