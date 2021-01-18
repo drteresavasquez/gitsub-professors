@@ -1,25 +1,32 @@
-# Foundations Group Project - Pants Website
+# Foundations Group Project - GitSub Website
 
-As a team, build the web site for the pants type your team has been given. The team gets to decide how you interpret your pants type. Be creative and have fun.  Let's keep it PG13 - if you are not sure and idea you have is appropriate, err on the side of caution and ask an instructor.
+As a team, build a clone of the GitHub website as outlined below. Be creative and have fun.
 
 ## Requirements
 
 ### Theme
 
-Pick a theme that the team likes. A good place for inspiration is the [Wordpress themes](https://wordpress.org/themes/) site. Do not purchase, or copy the theme code, just browse them for inspiration. Everyone should agree on a theme and ensure that each page is consistent with the colors, fonts, and/or images chosen.
+Use the Github website as a foundation for layout and styles that you will need to try to implement. 
 
 * Your team can only have 1 CSS and 1 JS file
-* Vanilla HTML, CSS, and JS/JQuery only
-* Your team should be using bootstrap - at minimum use the grid system
+* Vanilla HTML, CSS, and JS only
+* Your team should be using bootstrap
 
 ### Pages
 Each team member is going to be responsible for the content of a different page, so decide on the name and content for each of those pages. Some possible options are:
 
-1. Home page
-1. About the pants
-1. Upcoming Pants Fashion Shows
-1. Available Versions
-1. Buy various pants of this type
+1. Overview page
+  - Includes a form that allows a user to add a pinned repository
+1. Repositories page
+  - Includes a form that allows a user to create a new repository
+1. Projects Page with at least 5 projects listed on the page
+  - Includes a form that allows a user to add a new project
+1. Packages Page
+  - Includes a form that allows a user to add a package to the list of packages
+
+### Data
+
+Create data objects that you can use for your website. Do not duplicate objects or arrays. If multiple team members need the same data, create one data source for everyone to use.
 
 ### Teamwork
 
@@ -70,6 +77,6 @@ Now you have all of your work, plus all of your teammate's approved work on one 
 
 ### Twists
 Your project must include each of the following:
-* **Complex Data** - At least 1 of your pages should use a more complex data structure.  This means that one of your arrays should have an array inside each object.  For examle:  your pants could have an array of fits and each of your fits could have an array called sizes in it.  You then would have to figure out how to display all the fits and their sizes in the domString
+* **Complex Data** - At least 1 of your pages should use a more complex data structure.  This means that one of your arrays should have an array inside each object.  For example:  your repos could have an array of objects called users and each of your users could have an array called social media in it.  You then would have to figure out how to display all the users and their social media in the domString
 * **Dynamic Buttons** - somewhere in your project there should be some dynamically created buttons (NOT IN THE HTML...RENDERED USING JAVASCRIPT) - clicking each button should perform some sort of action
-* **Form** - Your project should have at least 1 form.  Submitting that form via a button click should do something.
+* **Form** - Each page in your project should have at least 1 form.  Submitting that form via a button click should do something.
