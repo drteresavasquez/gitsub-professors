@@ -8,6 +8,8 @@ As a team, build a clone of the GitHub website as outlined below. Be creative an
 
 Use the Github website as a foundation for layout and styles that you will need to try to implement. 
 
+[Here is the wireframe](https://www.figma.com/file/8vIX1yEXd2UxdWARbWqAje/GitSub?node-id=5%3A20)
+
 * Your team can only have 1 CSS and 1 JS file
 * Vanilla HTML, CSS, and JS only
 * Your team should be using bootstrap
@@ -19,12 +21,24 @@ Some possible options are:
 
 - Overview page
   - Includes a form that allows a user to add a pinned repository
+  - STRETCH GOALS: 
+    - Allow users to Delete Pins
+    - Create the About area shown in the Wireframe
 - Repositories page
   - Includes a form that allows a user to create a new repository
+  - STRETCH GOAL: 
+    - Allow users to search through the repos using the search bar
+    - Allow users to Star Repos
 - Projects Page with at least 5 projects listed on the page
   - Includes a form that allows a user to add a new project
+  - STRETCH GOALS:
+    - Allow users to search through the projects using the search bar
+    - Allow users to sort using the sort tool in the wireframe
 - Packages Page
   - Includes a form that allows a user to add a package to the list of packages
+  - STRETCH GOAL: 
+    - Allow users to Delete Packages
+    - Allow users to search packages
 
 ### Data
 
