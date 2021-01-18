@@ -10,6 +10,8 @@ As a team, build a clone of the GitHub website as outlined below. Be creative an
 
 Use the Github website as a foundation for layout and styles that you will need to try to implement. 
 
+[How to view the wireframe](https://www.loom.com/share/829b90d831ea441ba2db6bea724af210)
+
 [Here is the wireframe](https://www.figma.com/file/8vIX1yEXd2UxdWARbWqAje/GitSub?node-id=5%3A20)
 
 * Your team can only have 1 CSS and 1 JS file
