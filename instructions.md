@@ -2,6 +2,8 @@
 
 As a team, build a clone of the GitHub website as outlined below. Be creative and have fun.
 
+**:warning:** DO NOT start coding until an instructor has looked at your github project AND Milestones.
+
 ## Requirements
 
 ### Theme
@@ -49,7 +51,11 @@ Create data objects that you can use for your website. Do not duplicate objects 
 Create a Project board for your site and make the columns for 'Backlog', 'Todo', 'Doing', 'Code Review', 'Done'. Create notes for different units of work, make the notes into issues, and assign it to the team members doing to work. When you are assigned to an issue, make sure that you are moving it over to the right column on the board.
 
 ### Planning
-Your team **MUST** use github projects to track tickets and progress on tickets.  We expect to see detailed wireframes for all different views in your project. These wireframes should be included in the appropriate ticket.
+Your team **MUST** use github projects to track tickets and progress on tickets.
+
+- Create issue tickets for EVERYthing that needs to be completed in your project. There are going to be some elements that you will need to work on as a team and some that you will do as an indivudual. This is a TEAM project. NO ONE GETS LEFT BEHIND!
+- [Create Milestones and team deadlines for issues.](https://docs.github.com/en/github/managing-your-work-on-github/creating-and-editing-milestones-for-issues-and-pull-requests)
+- We expect to see detailed wireframes for all different views in your project especially if they are different from the sample wireframes. These wireframes should be included in the appropriate ticket.
 
 ### Git
 Your team is going to learn how to use git to enable good teamwork when building a software product.
@@ -89,7 +95,7 @@ Now you have all of your work, plus all of your teammate's approved work on one 
 * Your team can only have 1 JS file - main.js
 * All your JS should be written in functions.  Wherever possible reuseable functions.
 
-**:warning:** DO NOT start coding until an instructor has looked at your github project.
+**:warning:** DO NOT start coding until an instructor has looked at your github project AND MILESTONES.
 
 ### Twists
 Your project must include each of the following:
