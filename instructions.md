@@ -1,5 +1,7 @@
 # Foundations Group Project - GitSub Website
 
+## READ THIS ENTIRE DOCUMENT BEFORE STARTING
+
 As a team, build a clone of the GitHub website as outlined below. Be creative and have fun.
 
 **:warning:** DO NOT start coding until an instructor has looked at your github project AND Milestones.
