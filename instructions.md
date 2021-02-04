@@ -48,24 +48,24 @@ Create data objects that you can use for your website. Do not duplicate objects 
 
 ### Teamwork
 
-Create a Project board for your site and make the columns for 'Backlog', 'Todo', 'Doing', 'Code Review', 'Done'. Create notes for different units of work, make the notes into issues, and assign it to the team members doing to work. When you are assigned to an issue, make sure that you are moving it over to the right column on the board.
+Create a Project board for your site and make the columns for 'Backlog', 'Todo', 'Doing', 'Code Review', 'Done'. Create notes for different units of work, make the notes into issues, and assign it to the team members doing the work. When you are assigned to an issue, make sure that you are moving it over to the right column on the board.
 
 ### Planning
 Your team **MUST** use github projects to track tickets and progress on tickets.
 
-- Create issue tickets for EVERYthing that needs to be completed in your project. There are going to be some elements that you will need to work on as a team and some that you will do as an indivudual. This is a TEAM project. NO ONE GETS LEFT BEHIND!
+- Create issue tickets for EVERYthing that needs to be completed in your project. There are going to be some elements that you will need to work on as a team and some that you will do as an individual. This is a TEAM project. NO ONE GETS LEFT BEHIND!
 - [Create Milestones and team deadlines for issues.](https://docs.github.com/en/github/managing-your-work-on-github/creating-and-editing-milestones-for-issues-and-pull-requests)
 - We expect to see detailed wireframes for all different views in your project especially if they are different from the sample wireframes. These wireframes should be included in the appropriate ticket.
 
 ### Git
 Your team is going to learn how to use git to enable good teamwork when building a software product.
 
-1. Follow the instructons in class to clone down the repo
+1. Follow the instructions in class to clone down the repo
 1. `cd` into the directory that got created.
 1. Before anyone on the team writes a single line of code, the team will decide on a branch naming strategy. Branches should be descriptive of the work that is going to be done on that branch. Some teams also decide to add the developer's information to the branch name, such as initials. For example, a developer named Jasmine Sheboygen is going to work on the navbar for the web site. A good name for the branch would be `js-navbar`.
 1. Your team already has a README.md file so there is no reason anyone should push to the main branch - LIKE EVER.  Also at some point there should probably exist a good, proper readme with screenshots
 
-Now everyone will work on their page on those individual branches. Once a teammates feels that their work is complete, the teammate will push up their branch to Github and create a pull request. Decide as group your standard for reviewing and approving pull requests, for example, you may decide that each PR needs one thumbs up from another teammate, you may decide that everyone in the group needs to give it a thumbs up, etc. At the very least, one of the other teammates must review the pull request and give a thumbs up (Just type :+1 in the comment box).
+Now everyone will work on their page on those individual branches. Once a teammate feels that their work is complete, the teammate will push up their branch to Github and create a pull request. Decide as a group your standard for reviewing and approving pull requests, for example, you may decide that each PR needs one thumbs up from another teammate, you may decide that everyone in the group needs to give it a thumbs up, etc. At the very least, one of the other teammates must review the pull request and give a thumbs up (Just type :+1 in the comment box).
 ```bash
 # Check to make sure that your working tree is clean. Add and commit all that you need to.
 git checkout main
@@ -91,9 +91,9 @@ git merge main
 Now you have all of your work, plus all of your teammate's approved work on one branch. :cool:
 
 ### Javascript
-* EVERY SINGE PAGE must include a JS loop of some kind
+* EVERY SINGLE PAGE must include a JS loop of some kind
 * Your team can only have 1 JS file - main.js
-* All your JS should be written in functions.  Wherever possible reuseable functions.
+* All your JS should be written in functions.  Wherever possible reusable functions.
 
 **:warning:** DO NOT start coding until an instructor has looked at your github project AND MILESTONES.
 
@@ -102,3 +102,5 @@ Your project must include each of the following:
 * **Complex Data** - At least 1 of your pages should use a more complex data structure.  This means that one of your arrays should have an array inside each object.  For example:  your repos could have an array of objects called users and each of your users could have an array called social media in it.  You then would have to figure out how to display all the users and their social media in the domString
 * **Dynamic Buttons** - somewhere in your project there should be some dynamically created buttons (NOT IN THE HTML...RENDERED USING JAVASCRIPT) - clicking each button should perform some sort of action
 * **Form** - Each page in your project should have at least 1 form.  Submitting that form via a button click should do something.
+
+
